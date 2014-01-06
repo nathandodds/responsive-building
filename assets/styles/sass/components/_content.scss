@@ -37,3 +37,10 @@
 		}
 	}
 } 
+
+@media all and (min-width: 1024px) {
+	.article{
+		float: left;
+		width: 70%;
+	}
+}

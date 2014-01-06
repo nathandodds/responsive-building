@@ -99,6 +99,8 @@
 	
 }
 
+/* 640 -> */
+
 @media all and (min-width:640px) {
 	.navigation {
 		text-align: center;
@@ -108,6 +110,26 @@
 				padding: 0em 1em 1em 0.5em;
 				text-align: center;
 			}
+		}
+	}
+}	
+
+/* 768 -> */
+
+@media all and (min-width:768px) {
+	li{
+		display: inline;
+	}
+		.colored-links {
+			display: inline-block;
+			width: 25%;
+		.emerg-sup, .sign-up, .login {
+			display: inline-block;
+			vertical-align: bottom;
+
+		.white-links {
+			vertical-align: top;
+		}
 		}
 	}
 }	

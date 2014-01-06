@@ -1,4 +1,4 @@
-<aside>
+<aside class="aside">
 <article class="cv">
 		<img src= "<?php echo DIRECTORY; ?>assets/images/pen-pad.png" class="cv-img"/>
 		<div class="cv-info">
