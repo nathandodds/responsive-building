@@ -1,0 +1,95 @@
+.cv {
+	background: #384A53;
+	margin: 1em 1em 0em 1em;
+	padding: 1em 0.5em;
+
+	p {
+		color: #FFF;
+		margin: 0.25em 1em 1em 3.75em;
+	}
+
+	h3 {
+		color: #fff;
+	}
+}
+
+.cv-img {
+	display: block;
+	float: left;
+	height: 39px;
+	margin-right: 0.625em; /* 10px */
+}
+
+.cv-img {
+	padding-left: 0.5em;
+}
+
+.recommend {
+	margin: 1em 1em 0em 1em;
+	padding-top: 4em;
+	position: relative;
+	text-align: center;
+
+	&:before {
+		background: url("../images/recommend-img.png") 0 0 no-repeat;
+		content: '';
+		display: block;
+		height: 40px;
+		left: 50%;
+		margin-left: -27px;
+		position: absolute;
+		top: 24px;
+		width: 53px;
+	}
+	
+	.recommend-name {
+		color: #6BC097;
+		margin-bottom: 2.5em;
+	}
+}
+.services-link {
+	.service-aside-find,
+	a {
+		color: #6BC097;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	p {
+		color: #384A53;
+		padding-left: 1em;
+	}
+}
+
+.services {
+	background: #F5F5F5;
+	margin: 1em 1em 0em 1em;
+	padding: 0.1em;
+
+	h3 {
+		background: url("../images/green-transparent-bg.png") 0 0 repeat;
+		color: #fff;
+		display: inline-block;
+		line-height: normal;
+		padding: 0.25em;
+		text-transform: uppercase;
+	}
+
+	.service-img {
+		background: url("../images/service-bg.jpg") 0 0 no-repeat;
+		background-size: cover;
+		height: 122px;
+		line-height: 122px;
+	}
+}
+
+@media all and (min-width: 764px) {
+	.services-link {
+	.service-aside-find,
+		a {
+			text-align: center;
+		}	
+	}
+}

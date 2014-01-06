@@ -1,0 +1,39 @@
+.header-title {
+	background: url("../images/header-bg.jpg") 0 0 no-repeat;
+	border-bottom: 3px solid #B1E0E4;
+	border-top: 3px solid #6BC097;
+	color:#fff;
+	display: inline-block;
+	line-height: normal;
+	margin: 0em;
+	padding:1em;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.article{
+	h2{
+		color: #2D3E50;
+		padding: 0 0.5em;
+		text-align: center;
+	}
+
+	p {
+		color: #333333;
+		padding: 0 0.5em;
+		text-align: center;
+	}
+}
+
+@media all and (min-width: 480px) {
+	.article{
+		h2{
+			text-align: left;
+		}
+		p{
+			text-align: left;
+		}
+	}
+} 
